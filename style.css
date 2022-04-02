@@ -130,7 +130,6 @@ footer {
 
 @media screen and (max-width:556px) {
 	.body-sub-heading {
-		flex-direction: row;
 		flex-wrap: wrap;
 		justify-content: space-around;
 	}
