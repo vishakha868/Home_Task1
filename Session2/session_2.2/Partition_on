@@ -1,0 +1,14 @@
+function partitionOn(pred, items) {
+ var pTrue=[];
+  var pFalse=[];
+  for(var k=0;k<items.length;k++){
+    if(pred(items[k])){
+      pTrue.push(items[k]);
+    }
+    else
+      pFalse.push(items[k]);
+  }
+  items.length=0
+  items.push.apply(items,pFalse.concat(pTrue));
+  return pFalse.length;
+}

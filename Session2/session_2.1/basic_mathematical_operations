@@ -1,0 +1,7 @@
+function basicOp(operation, value1, value2)
+{
+  // Code
+  var str=value1+operation+value2
+  return eval(str);
+}
+////////////////////////mathematical_operation///////////////

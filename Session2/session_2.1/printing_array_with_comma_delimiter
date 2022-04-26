@@ -1,0 +1,5 @@
+function printArray(array){
+  //show me the code!
+ var str=array.toString();
+  return str;
+}
