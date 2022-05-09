@@ -1,0 +1,100 @@
+*{
+    margin:auto;
+    padding:inherit;
+    overflow-x:hidden;
+    
+}
+body{
+    background-color: rgb(33,33,33,0.90);
+
+}
+.head{
+    display:flex;
+    justify-content:space-between;
+    padding:0.5%;
+    background-color: rgb(33,33,33,0.90);
+    border-bottom: 1.5px solid darkgrey;
+
+}
+#logo{
+    width:9%;
+    height:3%;
+}
+input{
+    width:30em;
+    height:3em;
+    padding:1%;
+    margin-top:2%;
+    border-radius:0.2em;
+    border:none;
+}
+button{
+    background-color:rgba(20, 20, 20, 0.429) ;
+    border:none;
+    padding:2.2%;
+    height:3.6em;
+    margin-top:2%;
+}
+.icons{
+    display:flex;
+    margin-top:1.8%;
+    width:14%;
+}
+.fa-user,.fa-bell,.fa-video-camera{
+    color:white;
+    margin-left:15%;
+}
+
+#videos{
+ display:flex;
+ justify-content: space-around;
+}
+.thumbnail_set{
+background-color: white;
+width:50%;
+border-radius:2%;
+margin:2%;
+z-index:-1;
+padding:0.2%;
+background-color:rgb(33,33,33,0.90) ;
+/* box-shadow:2px 2px rgba(173, 170, 170, 0.523); */
+}
+img{
+    width:100%;
+
+}
+.content{
+   justify-content: flex-start; 
+   
+   color:white;
+}
+span{
+font-weight: bolder;
+margin-right:2%;
+}
+#pages{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    bottom: 0;
+    /* padding:2%; */
+}
+.page_btn{
+    width:5%;
+    padding:0;
+    margin:0;
+    color:white;
+    overflow: hidden;
+}
+.page_num{
+    width:10%;
+    display:flex;
+}
+.per_num{
+    background-color: aliceblue;
+    padding:5%;
+    border-radius:50%;
+    font-weight: bolder;
+    border:1px solid rgb(33,33,33,0.90);
+    text-align: center;
+}
