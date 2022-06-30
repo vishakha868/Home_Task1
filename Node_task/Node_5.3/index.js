@@ -5,5 +5,6 @@ const router=require('./routerController').router;
 // console.log(router);
 app.use('/user',validator,router);
 app.listen(8000,(req,res)=>{
+    
     console.log("server running");
 })

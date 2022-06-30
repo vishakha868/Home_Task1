@@ -6,6 +6,7 @@ const readline = require('readline').createInterface({
   readline.question(`Enter the operation to be performed\n1. Addition\n2. Subtraction\n3. Multiplication\n4. Division\n`, operation => {
     var operation=`${operation}`;
     switch(operation){
+      
       case '1':
         readline.question(`Enter the space separated inputs to be taken\n`,num=>{
           var num = `${num}`
