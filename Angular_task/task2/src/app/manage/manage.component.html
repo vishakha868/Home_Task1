@@ -1,9 +1,0 @@
-<div class="row">
-    <div class="col-sm-6">
-        <app-user-list [isManage]="isManage"(idEvent)="receiveID($event)"></app-user-list>
-    </div>
-    <div *ngIf="user.id!='-1'" class="col-sm-5">
-        <app-user-details [user]="user"></app-user-details>
-    </div>
-</div>
-
