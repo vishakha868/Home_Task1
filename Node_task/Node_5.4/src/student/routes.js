@@ -1,0 +1,10 @@
+const {Router}=require('express');
+const controller=require('./controller');
+const validator = require('./validator').validator;
+const router=Router();
+router.get('/',controller.getStudents);
+router.get("/:id",controller.getStudentById);
+router.post("/addStudent",controller.addStudent);
+router.delete("/deleteStudent/:id",controller.deleteStudentById);
+router.put('/updateStudent/:id',controller.updateStudent);
+module.exports=router;
