@@ -1,0 +1,14 @@
+h4{
+    color:grey;
+    font-size:18px;
+    font-weight: lighter;
+}
+
+h1{
+font-size:40px;
+font-weight: lighter;
+}
+.header{
+background-color: rgb(228, 231, 234);
+padding:3%;
+}

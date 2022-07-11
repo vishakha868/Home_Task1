@@ -1,0 +1,25 @@
+<div>
+    <div class="card">
+        <h5>{{user.firstName}}{{user.lastName}}</h5>
+        <div *ngIf="user.isDeleted" class="red">Inactive</div>
+        <div *ngIf="!user.isDeleted" class="green">Active</div>
+        <div class="row">
+            <label class="col-md-3">Login id</label>
+            <span class="col-md-3">{{user.login}}</span>
+        </div>
+
+        <div clas="row">
+            <label class="col-md-3">First Name</label>
+            <span class="col-md-3">{{user.firstName}}</span>
+        </div>
+        <div class="row">
+            <label class="col-md-3">Last Name</label>
+            <span class="col-md-3">{{user.lastName}}</span>
+        </div>
+        <div class="row">
+            <label class="col-md-3">Age</label>
+            <span class="col-md-3">{{user.age}}</span>
+        </div>
+
+    </div>
+</div>
