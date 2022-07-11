@@ -1,0 +1,147 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	overflow-x: hidden;
+}
+
+.header {
+	background-color: rgb(39, 56, 82);
+	padding: 1%;
+	display: flex;
+	justify-content: center;
+	position: fixed;
+	width: 100%;
+    color: white;
+}
+
+
+h3,
+.main-heading,
+.body-sub-heading {
+	color: rgb(39, 56, 82);
+}
+
+header div {
+	background-color: white;
+	padding: 0.5%;
+	color: rgb(39, 56, 82);
+	border: 2px solid #e68b37;
+	text-align: center;
+	width: 15%;
+	height: 80%;
+}
+
+header>div>h3 {
+	font-size: 1.5vw;
+	padding: 0.2%;
+}
+
+h5 {
+	font-size: 0.8vw;
+}
+
+.flex-row {
+	display: flex;
+	padding: 0.5rem;
+	margin-bottom: 2rem;
+	position: inherit;
+}
+
+.flex-row div {
+	padding: 1rem;
+}
+
+p {
+	width: 80%;
+	padding: 0.2rem;
+}
+
+.main-heading {
+	text-align: center;
+	margin-top: 1.5rem;
+	font-weight:600;
+	font-size: x-large;
+}
+
+label {
+	font-size: x-small;
+}
+
+button {
+	background-color: #e68b37;
+	border-radius: 0.2rem;
+	border: none;
+	padding: 0.8rem;
+	margin: 0.2rem;
+	color: azure;
+	font-weight: bold;
+}
+
+.body-sub-heading {
+	display: flex;
+	flex-direction: row;
+	margin-top: 5%;
+	padding: 2% 2% 0% 2%;
+	font-weight: bold;
+	justify-content: space-between;
+}
+
+input[type=button] {
+	background-color: rgb(39, 56, 82);
+	color: white;
+	padding: 0.3rem;
+	margin-left: -5px;
+	border: none;
+}
+
+input[type=email],
+select {
+	padding: 0.15rem;
+}
+
+hr {
+	border-width: 2px;
+	margin: 2%;
+}
+
+img {
+	width: 100%;
+	max-width: 400px;
+}
+
+.footer {
+text-align: center;
+	bottom: 0%;
+	background-color: rgb(39, 56, 82);
+	color: white;
+	padding: 1%;
+	position: fixed;
+	width: 100%;
+}
+
+
+@media only screen and (max-width:768px) {
+	.flex-row {
+		flex-direction: column;
+		align-items: center;
+	}
+	p {
+		width: 100%;
+	}
+}
+@media screen and (max-width:556px) {
+	.body-sub-heading {
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	#item1:nth-child(1) {
+		width: calc(35%);
+	}
+	#item2 {
+		order: 3;
+	}
+	#item3:nth-child(2) {
+		width: calc(65%);
+	}
+}
