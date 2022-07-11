@@ -1,0 +1,14 @@
+.redCard{
+border-color: red;
+}
+.greenCard{
+border-color: green;
+}
+.card{
+    padding:1.5%;
+    margin:1%;
+    height:6rem;
+}
+h4{
+    font-weight: lighter;
+}
