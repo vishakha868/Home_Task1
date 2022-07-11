@@ -1,0 +1,11 @@
+.body{
+    background-color:rgb(232, 232, 235);
+    padding:2%;
+    margin:2%;
+   
+   
+}
+h1,h4{
+    font-weight: lighter;
+    line-height:45px;
+}
